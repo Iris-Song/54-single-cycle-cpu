@@ -70,4 +70,11 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
 
 　　　　　<img src="https://user-images.githubusercontent.com/58033867/125728314-ae55d25a-e392-4d7a-b12c-45515f59da99.png" width="300" height="300">
 
+### How to use
+#### design
+1. [analyze data path of each instruction]()
+
+2. find digital parts to use and find their commons
+
+3. [design total data path]()
 
