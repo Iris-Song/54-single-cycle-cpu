@@ -79,6 +79,13 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
 3. design total data path
 <img src="https://user-images.githubusercontent.com/58033867/125744012-d3e55dbd-e135-42fa-bb05-89cccc73c35b.png" height="500">
 
+#### test
+**pre-simulation** :
+1. write a file for test ([example]()) ,init your instruction memory with each instruction's [hex code]()
+
+2. run simulation ,get your result.
+
+3. compare your result and [standard result]()
 
  
 
