@@ -7,7 +7,7 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
 
 * <b>Num of Instruction</b> : 54
 * **Instruction** :  
-  | No. | instruction | Format                  | OP 31-26 | RS 25-21 | RT 20-16 | RD 15-11 | SA 10-6 | FUNCT 5-0	| Hex code
+  | No. | instruction | Format                  | OP <br>31-26 | RS<br> 25-21 | RT<br> 20-16 | RD<br> 15-11 | SA<br> 10-6 | FUNCT<br> 5-0	| Hex code
   | --- | ----------- | ----------------------- | -------- | -------- | -------- | -------- | ------- | --------- | -----------
   | 1   | addi        | addi rt, rs, immediate  |  001000  |          |          |          |  00000  |  100000   | 20000000
   | 2   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
@@ -19,8 +19,12 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
   | 8   | slti        | slti rt, rs, immediate  |  001010  |          |          |   00000  |  00000  |   000000  | 28000000
   | 9   | addu	      | addu rd, rs, rt |  000000  |          |          |          |    00000     |    100001       | 00000021
   | 10   | and	     | and rd, rs, rt |  000000  |          |          |          |    00000 |  100100    | 00000024
+  | 11   | beq		     | beq rs, rt, offset |  000100  |          |          |          |         |           | 10000000 
+  | 12   | bne			  | bne rs, rt, offset |  000101  |          |          |          |         |           | 14000000
   | 2   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
   | 2   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
+| 2   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
+   | 2   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
 
 
 * **Environment** :　Vivado 2016.2　Nexy4 DDR
