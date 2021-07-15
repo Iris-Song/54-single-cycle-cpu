@@ -81,11 +81,11 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
 
 #### test
 **pre-simulation** :
-1. write a file for test ([example]()) ,init your instruction memory with each instruction's [hex code]()
+1. write a file for test ([example]()) ,init your instruction memory with each instruction's [hex code](https://github.com/Iris-Song/54-single-cycle-cpu/tree/main/test/hex)
 
 2. run simulation ,get your result.
 
-3. compare your result and [standard result]()
+3. compare your result and [standard result](https://github.com/Iris-Song/54-single-cycle-cpu/tree/main/test/standard_result)
 
  
 
