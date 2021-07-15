@@ -51,11 +51,11 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
   | 40   | sh	|sh rt, offset(base)	|101001		||||||	A4000000      
   | 41   | lh	|lh rt, offset(base)	|100001		||||||				84000000      
   | 42   | mfc0	|mfc0 rt, rd	|010000|	00000	|	||	00000|	000000|	40000000      
-| 43   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-   | 44   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 45   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 46   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 47   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000  
+  | 43   | mfhi	|mfhi rd|	000000|	00000|	|	00000	|	00000	|010000	|00000010       
+  | 44   | mflo	|mflo rd|	000000|	00000||	00000	|	00000|	010010|	00000012      
+  | 45   | mtc0	|mtc0 rt, rd|	010000|	00100|||			|00000	|000000	|40800000      
+  | 46   | mthi	|mthi rd|	000000||		00000|	00000|	00000|	010001|	00000011     
+  | 47   | mtlo	|mtlo rd |	000000| |		00000|	00000|	00000|	010011|	00000013     
   | 48   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
   | 49   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
 | 50   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
