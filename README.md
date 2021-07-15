@@ -76,5 +76,9 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
 
 2. find digital parts to use and find their commons
 
-3. [design total data path]()
+3. design total data path
+![image](https://user-images.githubusercontent.com/58033867/125744012-d3e55dbd-e135-42fa-bb05-89cccc73c35b.png)
+
+
+ 
 
