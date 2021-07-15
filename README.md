@@ -34,14 +34,14 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
    | 23   | sra			   | sra rd, rt, sa |  000000  |00000     |          |          |         |  000011   | 00000003
   | 24 | srl								    | srl rd, rt, sa |  000000  |  00000   |          |          |         |  000010  | 00000002   
   | 25   | subu		    | sub rd, rs, rt |  000000  |          |          |          |  00000   |  100010    | 00000022
-  | 26   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000  
-  | 27   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 28  | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-| 29   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-   | 30   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 31   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 32   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 33   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000  
+  | 26   | sw	|sw rt, offset(base)	|101011	|					                 |          |          |         |           | AC000000 
+  | 27   | add	|add rd, rs, rt|	000000	|	|	||	00000|	100000|	00000020               
+  | 28  | sub|	sub rd, rs, rt|	000000	||||			00000	|100010|	00000022      
+  | 29   | slt|	slt rd, rs, rt|	000000||||				00000|	101010|	0000002A       
+   | 30   | srlv	|srlv rd, rt, rs|	000000	||||			00000|	000110|	00000006       
+  | 31   | srav	|srav rd, rt, rs	|000000	||||			00000	|000111	|00000007       
+  | 32   |clz	|clz rd, rs|	011100	||||			00000	|100000	|70000020     
+  | 33   | divu	|divu rs, rt|	000000	|||		00000|	00000	|011011|	0000001B      
   | 34   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
   | 35   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
 | 36   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
