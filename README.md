@@ -85,7 +85,7 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
 
 2. run simulation ,get your result.
 
-3. compare your result and [standard result](https://github.com/Iris-Song/54-single-cycle-cpu/tree/main/test/standard_result)
+3. compare your result and [standard result](https://github.com/Iris-Song/54-single-cycle-cpu/tree/main/test/standad%20result)
 
  
 
