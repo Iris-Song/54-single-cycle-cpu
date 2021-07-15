@@ -25,11 +25,11 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
   | 14   |jal		     | jal target |  000011  |          |          |          |         |           |0C000000
   | 15   | jr							     | jr rs	 |  000000  |          |          |          |         |      001000     | 00000009 
    | 16   | lw		     | lw rt, offset(base) |  100011  |          |          |          |         |           | 8C000000
-  | 17   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 18   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 19   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000  
-  | 20   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 21  | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
+  | 17   | xor		   | xor rd, rs, rt |  000000  |          |          |          |  00000   |  100110   | 00000026
+  | 18   | nor		    | nor rd, rs, rt |  000000  |          |          |          |  00000  |  100111    | 00000027
+  | 19   | or			    | or rd, rs, rt |  000000  |          |          |          |   00000   |   100101  | 00000025 
+  | 20   | sll		     | sll rd, rt, sa |  000000  |  00000   |          |          |         |  	000000   | 00000000
+  | 21  | sllv		   | sllv rd, rt, rs | 000000  |     00000     |          |          |         |    000100    | 00000004
 | 22   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
    | 23   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
   | 24 | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
