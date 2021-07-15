@@ -6,7 +6,7 @@
 A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvard</b> architecture.
 
 * <b>Num of Instruction</b> : 54
-* **Instruction** :  
+* **[Instruction]()** :  
   | No. | instruction | Format                  | OP <br>31-26 | RS<br> 25-21 | RT<br> 20-16 | RD<br> 15-11 | SA<br> 10-6 | FUNCT<br> 5-0	| Hex code
   | --- | ----------- | ----------------------- | -------- | -------- | -------- | -------- | ------- | --------- | -----------
   | 1   | addi        | addi rt, rs, immediate  |  001000  |          |          |          |  00000  |  100000   | 20000000
