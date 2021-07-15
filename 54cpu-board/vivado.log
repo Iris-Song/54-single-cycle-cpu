@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jul 15 10:41:32 2021
+# Process ID: 16008
+# Current directory: C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9004 C:\Users\1234\Desktop\digit logical shortcut\54cpu-rboard\54cpu.xpr
+# Log file: C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/vivado.log
+# Journal file: C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.xpr}
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/1234/Desktop/digit logical shortcut/cpu31/xdc.txt'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/1234/Desktop/digit logical shortcut/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/1234/Desktop/digit logical shortcut/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 862.848 ; gain = 181.430
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 15 10:42:11 2021...

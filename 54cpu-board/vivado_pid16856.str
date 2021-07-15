@@ -1,0 +1,95 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 16856
+
+Current time: 	6/16/21 10:15:57 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	1234
+User home directory: C:/Users/1234
+User working directory: C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/1234/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/1234/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	214 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 529 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 34 MB (+33278kb) [00:00:04]
+// [Engine Memory]: 397 MB (+265214kb) [00:00:04]
+// Opening Vivado Project: C:\Users\1234\Desktop\digit logical shortcut\54cpu-sim\54cpu.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 39 MB (+3509kb) [00:00:07]
+// [Engine Memory]: 501 MB (+87830kb) [00:00:07]
+// [GUI Memory]: 56 MB (+15608kb) [00:00:07]
+// [Engine Memory]: 527 MB (+939kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project {C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 537 MB. GUI used memory: 33 MB. Current time: 6/16/21 10:15:57 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: 54cpu; location: C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 823.996 ; gain = 146.090 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe 
+// Tcl Message: INFO: [USF-ModelSim-47] Finding simulator installation... INFO: [USF-ModelSim-50] Using simulator executables from 'C:/modeltech_pe_10.4c/win32pe/vsim.exe' INFO: [USF-ModelSim-30] Simulation object is 'sim_1'... INFO: [USF-modelsim-7] Finding pre-compiled libraries... 
+// Tcl Message: INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/behav' 
+// Tcl Message: Reading C:/modeltech_pe_10.4c/tcl/vsim/pref.tcl  # 10.4c  # do {sccomp_dataflow_compile.do} 
+// [GUI Memory]: 60 MB (+1183kb) [00:01:20]
+// Elapsed time: 365 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, f:bL)
+// 'e' command handler elapsed time: 365 seconds
+// Elapsed time: 73 seconds
+closeMainWindow("54cpu - [C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.xpr] - Vivado 2016.2"); // cv:JFrame
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit vivado.<br>If you choose to abort background task and exit immediately, you will lose all unsaved<br>changes to project. (Background Task)'

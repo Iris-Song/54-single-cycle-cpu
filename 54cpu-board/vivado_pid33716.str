@@ -1,0 +1,1186 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 33716
+
+Current time: 	6/15/21 9:41:22 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	1234
+User home directory: C:/Users/1234
+User working directory: C:/Users/1234/Desktop/digit logical shortcut/54cpu
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/1234/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/1234/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	214 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 543 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 31 MB (+29626kb) [00:00:03]
+// [Engine Memory]: 404 MB (+271706kb) [00:00:03]
+// Opening Vivado Project: C:\Users\1234\Desktop\digit logical shortcut\54cpu\54cpu.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project {C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.xpr} 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 69 MB (+38602kb) [00:00:04]
+// [Engine Memory]: 484 MB (+62745kb) [00:00:04]
+// [Engine Memory]: 534 MB (+27067kb) [00:00:05]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project {C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 557 MB. GUI used memory: 31 MB. Current time: 6/15/21 9:41:23 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: 54cpu; location: C:/Users/1234/Desktop/digit logical shortcut/54cpu; part: xc7a100tcsg324-1
+// [Engine Memory]: 563 MB (+3276kb) [00:00:08]
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot cpu_tb_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue Jun 15 21:41:38 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 868.461 ; gain = 0.000 
+// 'e' command handler elapsed time: 7 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// Elapsed time: 129 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// HMemoryUtils.trashcanNow. Engine heap size: 577 MB. GUI used memory: 34 MB. Current time: 6/15/21 9:43:53 PM CST
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Project Manager", "Project Manager", "DesignTask.PROJECT_SETUP");
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// G:be (cv:JFrame): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:be)
+dismissDialog("Close Project"); // G:be (cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 3, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("test.v", 62, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("test.v", 72, 235); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 73 MB (+209kb) [00:03:06]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+// [GUI Memory]: 76 MB (+8kb) [00:03:06]
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot cpu_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue Jun 15 21:44:26 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 868.461 ; gain = 0.000 
+// 'e' command handler elapsed time: 5 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// Elapsed time: 22 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// c:x (cv:JFrame): Save Simulation Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, c:x)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// [GUI Memory]: 80 MB (+225kb) [00:03:38]
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Save Simulation Sources"); // c:x (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("test.v", 125, 185); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot cpu_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue Jun 15 21:45:05 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 868.461 ; gain = 0.000 
+// 'e' command handler elapsed time: 5 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// Elapsed time: 67 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v)]", 2); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), sccpu - cpu (cpu.v)]", 4); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), sccpu - cpu (cpu.v), mult_uut - MULT (MULT.v)]", 22, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), sccpu - cpu (cpu.v), mult_uut - MULT (MULT.v)]", 22, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("MULT.v", 267, 157); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MULT.v", 249, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MULT.v", 249, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+// [Engine Memory]: 600 MB (+8663kb) [00:05:41]
+// HMemoryUtils.trashcanNow. Engine heap size: 600 MB. GUI used memory: 38 MB. Current time: 6/15/21 9:46:59 PM CST
+// Elapsed time: 115 seconds
+selectCodeEditor("MULT.v", 42, 167); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MULT.v", 232, 224); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MULT.v", 23, 164); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectCodeEditor("MULT.v", 91, 48); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MULT.v", 98, 66); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("MULT.v", 98, 66); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MULT.v", 188, 107); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MULT.v", 183, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot cpu_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue Jun 15 21:49:02 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 869.844 ; gain = 0.000 
+// 'e' command handler elapsed time: 6 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// Elapsed time: 45 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// [GUI Memory]: 86 MB (+1508kb) [00:08:34]
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("test.v", 42, 33); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("test.v", 59, 139); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot cpu_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue Jun 15 21:50:17 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 869.844 ; gain = 0.000 
+// 'e' command handler elapsed time: 5 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// Elapsed time: 36 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+selectCodeEditor("test.v", 338, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MULT.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("MULT.v", 190, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("test.v", 119, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("test.v", 88, 148); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "test.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot cpu_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue Jun 15 21:51:34 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 876.785 ; gain = 5.656 
+// 'e' command handler elapsed time: 5 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 76 seconds
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 6"); // v:aK
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MULT.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+// [GUI Memory]: 91 MB (+1117kb) [00:12:08]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("test.v", 378, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), imem - pretest_imem (pretest_imem.v)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("sccomp_dataflow.v", 50, 136); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 28, 180); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 34, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot cpu_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue Jun 15 21:53:50 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 878.430 ; gain = 0.000 
+// 'e' command handler elapsed time: 5 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// Elapsed time: 138 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Project Settings: addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property -name {xsim.simulate.runtime} -value {6000ns} -objects [get_filesets sim_1] 
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot cpu_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue Jun 15 21:56:33 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 6000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 6000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 882.180 ; gain = 0.000 
+// 'e' command handler elapsed time: 5 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// Elapsed time: 90 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+selectCodeEditor("sccomp_dataflow.v", 319, 160); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 121, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 627 MB. GUI used memory: 47 MB. Current time: 6/15/21 9:59:45 PM CST
+// Elapsed time: 101 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("test.v", 360, 120); // bH:N (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), sccpu - cpu (cpu.v)]", 4); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), sccpu - cpu (cpu.v), multu_uut - MULTU (MULTU.v)]", 21, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), sccpu - cpu (cpu.v), multu_uut - MULTU (MULTU.v)]", 21, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("MULTU.v", 2, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectCodeEditor("MULTU.v", 75, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 31 seconds
+typeControlKey((HResource) null, "MULTU.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("MULTU.v", 340, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot cpu_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue Jun 15 22:01:07 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 6000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 6000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 887.438 ; gain = 1.008 
+// 'e' command handler elapsed time: 6 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// [GUI Memory]: 96 MB (+427kb) [00:21:07]
+// Elapsed time: 427 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 231, 23); // dI:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 228 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), sccpu - cpu (cpu.v), cp0_uut - CP0 (cp0.v)]", 16, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), sccpu - cpu (cpu.v), cp0_uut - CP0 (cp0.v)]", 16, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 29 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+// Elapsed time: 220 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), sccpu - cpu (cpu.v), cu_uut - cu (cu.v)]", 23, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), sccpu - cpu (cpu.v), cu_uut - cu (cu.v)]", 23, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("cu.v", 230, 140); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cu.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MULTU.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 101 MB (+241kb) [00:35:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 630 MB. GUI used memory: 50 MB. Current time: 6/15/21 10:50:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 630 MB. GUI used memory: 44 MB. Current time: 6/16/21 9:46:28 AM CST
+// Elapsed time: 41559 seconds
+selectCodeEditor("cu.v", 173, 189); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("cu.v", 292, 165); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("cu.v", 232, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 295 seconds
+selectCodeEditor("cu.v", 307, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 51 seconds
+selectCodeEditor("cu.v", 212, 168); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("cu.v", 453, 115); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("cu.v", 457, 105); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("cu.v", 339, 130); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// Tcl Message: "xvlog -m64 --relax -prj cpu_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot cpu_tb_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Wed Jun 16 09:55:51 2021... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 888.621 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 6000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 6000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 888.621 ; gain = 0.000 
+// 'e' command handler elapsed time: 15 seconds
+// Elapsed time: 15 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// Elapsed time: 556 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 888.621 ; gain = 0.000 
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("test.v", 204, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 205 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MULT.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sccomp_dataflow.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 51, 187); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 30, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 135, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v)]", 2); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), imem - pretest_imem (pretest_imem.v)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), imem - pretest_imem (pretest_imem.v)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("pretest_imem.v", 339, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "pretest_imem.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pretest_imem.v", 328, 188); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("pretest_imem.v", 198, 202); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cu.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MULTU.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sccomp_dataflow.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 406, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 296, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 381, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 413, 187); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MULTU.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cu.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("test.v", 350, 39); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "test.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// TclEventType: FILE_SET_CHANGE
+// Project Settings: addNotify
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property -name {xsim.simulate.runtime} -value {1000ns} -objects [get_filesets sim_1] 
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// Tcl Message: "xvlog -m64 --relax -prj cpu_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, f:bL)
+// 'e' command handler elapsed time: 7 seconds
+// Tcl Message: Built simulation snapshot cpu_tb_behav 
+// TclEventType: LAUNCH_SIM
+// Tcl Message:  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Wed Jun 16 10:10:23 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 888.621 ; gain = 0.000 
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 630 MB. GUI used memory: 47 MB. Current time: 6/16/21 10:16:29 AM CST
+// Elapsed time: 1081 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - cpu_tb", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 888.621 ; gain = 0.000 
+// Elapsed time: 29 seconds
+selectCodeEditor("test.v", 266, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("test.v", 156, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("test.v", 246, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("test.v", 336, 112); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("test.v", 120, 115); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("test.v", 100, 134); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("test.v", 158, 164); // bH:N (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), imem - pretest_imem (pretest_imem.v)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("sccomp_dataflow.v", 49, 112); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 31, 166); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 14 seconds
+selectCodeEditor("sccomp_dataflow.v", 319, 147); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 428, 116); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 423, 116); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 413, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 414, 201); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 438, 122); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 309, 147); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("sccomp_dataflow.v", 216, 97); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// Tcl Message: "xvlog -m64 --relax -prj cpu_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// Tcl Message: Compiling module xil_defaultlib.DIV Compiling module xil_defaultlib.MULTU Compiling module xil_defaultlib.MULT Compiling module xil_defaultlib.cu Compiling module xil_defaultlib.cpu Compiling module xil_defaultlib.dmem Compiling module xil_defaultlib.sccomp_dataflow Compiling module xil_defaultlib.cpu_tb Compiling module xil_defaultlib.glbl 
+// Tcl Message: Built simulation snapshot cpu_tb_behav 
+// TclEventType: LAUNCH_SIM
+// Tcl Message:  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": permission denied INFO: [Common 17-206] Exiting Webtalk at Wed Jun 16 10:30:25 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 888.621 ; gain = 0.000 
+// 'e' command handler elapsed time: 13 seconds
+// Elapsed time: 13 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// Elapsed time: 283 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// TclEventType: FILE_SET_CHANGE
+// Project Settings: addNotify
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property -name {xsim.simulate.runtime} -value {6000ns} -objects [get_filesets sim_1] 
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_CLOSE
+// G:be (cv:JFrame): Confirm Close: addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// 'a' command handler elapsed time: 5 seconds
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Confirm Close"); // G:be (cv:JFrame)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'... INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/imem.mif' INFO: [USF-XSim-25] Exported 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav/mips_54_mars_simulate_student_ForWeb.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot cpu_tb_behav 
+// TclEventType: LAUNCH_SIM
+// Tcl Message:  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": permission denied INFO: [Common 17-206] Exiting Webtalk at Wed Jun 16 10:35:42 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: source cpu_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 6000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 6000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 888.621 ; gain = 0.000 
+// 'e' command handler elapsed time: 24 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 630 MB. GUI used memory: 48 MB. Current time: 6/16/21 10:46:32 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 2001 seconds
+closeMainWindow("54cpu - [C:/Users/1234/Desktop/digit logical shortcut/54cpu/54cpu.xpr] - Vivado 2016.2"); // cv:JFrame
+// G:be (cv:JFrame): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:be)
+dismissDialog("Exit Vivado"); // G:be (cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM

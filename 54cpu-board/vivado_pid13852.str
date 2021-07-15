@@ -1,0 +1,577 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 13852
+
+Current time: 	6/16/21 1:33:24 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	1234
+User home directory: C:/Users/1234
+User working directory: C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/1234/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/1234/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	212 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 558 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 32 MB (+30686kb) [00:00:03]
+// [Engine Memory]: 405 MB (+272804kb) [00:00:03]
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\1234\Desktop\digit logical shortcut\54cpu-sim\54cpu.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 37 MB (+3908kb) [00:00:05]
+// [Engine Memory]: 504 MB (+83076kb) [00:00:05]
+// [GUI Memory]: 54 MB (+15695kb) [00:00:06]
+// [Engine Memory]: 547 MB (+18984kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project {C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 572 MB. GUI used memory: 33 MB. Current time: 6/16/21 1:33:25 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 577 MB (+2610kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: 54cpu; location: C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 873.609 ; gain = 191.262 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "1 critical warning"); // i:l (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-5413] Mix of synchronous and asynchronous control for register dmem_reg_reg in module dmem.. ]", 2, false); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-5413] Mix of synchronous and asynchronous control for register dmem_reg_reg in module dmem.. ]", 2, false, false, false, false, false, true); // al:k (JViewport:JComponent, cv:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1]", 1, true); // al:k (JViewport:JComponent, cv:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-5413] Mix of synchronous and asynchronous control for register dmem_reg_reg in module dmem.. ]", 2, false); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-5413] Mix of synchronous and asynchronous control for register dmem_reg_reg in module dmem.. ]", 2, false, false, false, false, false, true); // al:k (JViewport:JComponent, cv:JFrame) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v)]", 2); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), dmem_uut - dmem (DMEM.v)]", 5, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v), dmem_uut - dmem (DMEM.v)]", 5, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 57 MB (+630kb) [00:01:03]
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu_tb (test.v), uut - sccomp_dataflow (sccomp_dataflow.v)]", 2, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top sccomp_dataflow [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 62 MB (+2232kb) [00:01:08]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Project Settings: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.ProjectSettingsSimulationPanel_SELECT_TESTBENCH_TOP_MODULE, (String) null); // r:a (ag:z, k:aP)
+// bL:g (k:aP):  Analyze source files for top modules : addNotify
+// R:x (k:aP): Select Top Module: addNotify
+dismissDialog("Select Top Module"); // R:x (k:aP)
+// [GUI Memory]: 72 MB (+6802kb) [00:01:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 593 MB. GUI used memory: 36 MB. Current time: 6/16/21 1:34:40 PM CST
+// Elapsed time: 22 seconds
+setText(PAResourceOtoP.ProjectSettingsSimulationPanel_SELECT_TESTBENCH_TOP_MODULE, "sccomp_dataflow"); // ao:JTextField (ag:z, k:aP)
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top sccomp_dataflow [get_filesets sim_1] 
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Project Settings: addNotify
+selectButton(PAResourceOtoP.ProjectSettingsSimulationPanel_SELECT_TESTBENCH_TOP_MODULE, (String) null); // r:a (ag:z, k:aP)
+// bL:g (k:aP):  Analyze source files for top modules : addNotify
+// R:x (k:aP): Select Top Module: addNotify
+dismissDialog("Select Top Module"); // R:x (k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ELABORATION, "Elaboration", 1); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_NETLIST, "Netlist", 3); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ADVANCED, "Advanced", 4); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_NETLIST, "Netlist", 3); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ADVANCED, "Advanced", 4); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ELABORATION, "Elaboration", 1); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_COMPILATION, "Compilation", 0); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ELABORATION, "Elaboration", 1); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_NETLIST, "Netlist", 3); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ADVANCED, "Advanced", 4); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+// [GUI Memory]: 76 MB (+1033kb) [00:02:04]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot sccomp_dataflow_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": permission denied INFO: [Common 17-206] Exiting Webtalk at Wed Jun 16 13:35:27 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "sccomp_dataflow_behav -key {Behavioral:sim_1:Functional:sccomp_dataflow} -tclbatch {sccomp_dataflow.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source sccomp_dataflow.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'sccomp_dataflow_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 880.027 ; gain = 0.078 
+// 'e' command handler elapsed time: 6 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+// [GUI Memory]: 81 MB (+369kb) [00:02:12]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 117, 192); // n:a (JViewport:JComponent, cv:JFrame)
+// [Engine Memory]: 606 MB (+232kb) [00:02:17]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 117, 248); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 607 MB. GUI used memory: 40 MB. Current time: 6/16/21 1:35:35 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 610 MB. GUI used memory: 40 MB. Current time: 6/16/21 1:35:36 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL, "Run Post-Synthesis Functional Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// [Engine Memory]: 773 MB (+142406kb) [00:02:31]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 848 MB (+38937kb) [00:02:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 849 MB. GUI used memory: 40 MB. Current time: 6/16/21 1:35:50 PM CST
+// Xgd.load filename: C:/Xilinx/Vivado/2016.2/data/parts/xilinx/artix7/devint/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_detail.xgd elapsed time: 0.5s
+// [Engine Memory]: 931 MB (+41673kb) [00:02:33]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// TclEventType: DESIGN_NEW
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# Current time: 6/16/21 1:35:51 PM CST
+# Process ID: 13852
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 59 (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid13852.debug)
+*/
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: ERROR: [Vivado 12-106] *** Exception: java.lang.ArrayIndexOutOfBoundsException: 59 (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid13852.debug) 
+// Tcl Message: open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1200.160 ; gain = 315.957 
+// Tcl Message: INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'... INFO: [USF-XSim-90] write_verilog -mode funcsim -nolib -force -file "C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/synth/func/sccomp_dataflow_func_synth.v" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/synth/func' 
+// Tcl Message: Vivado Simulator 2016.2 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto b99ebf44ebb446e588726bbbf61e0fe3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot sccomp_dataflow_func_synth xil_defaultlib.sccomp_dataflow xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+// Elapsed time: 11 seconds
+selectButton(RDIResource.HExceptionDialog_EXIT, "Exit"); // a:JButton (ButtonPanel:JPanel, ag:StandardDialog)
+// G:be (cv:JFrame): Exit Vivado: addNotify
+// Tcl Message: Completed static elaboration Starting simulation data flow analysis 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:be)
+dismissDialog("Exit Vivado"); // G:be (cv:JFrame)
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, f:bL)
+// 'e' command handler elapsed time: 18 seconds
+// Tcl Message: Built simulation snapshot sccomp_dataflow_func_synth 
+// TclEventType: LAUNCH_SIM
+// Tcl Message:  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source C:/Users/1234/Desktop/digit -notrace couldn't read file "C:/Users/1234/Desktop/digit": permission denied INFO: [Common 17-206] Exiting Webtalk at Wed Jun 16 13:36:04 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/synth/func' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "sccomp_dataflow_func_synth -key {Post-Synthesis:sim_1:Functional:sccomp_dataflow} -tclbatch {sccomp_dataflow.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source sccomp_dataflow.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'sccomp_dataflow_func_synth' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1221.770 ; gain = 337.566 
+// a:a (cv:JFrame): Critical Messages: addNotify
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cv:JFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 85 MB (+156kb) [00:02:55]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 946 MB. GUI used memory: 66 MB. Current time: 6/16/21 1:36:12 PM CST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// TclEventType: FILE_SET_CHANGE
+// Project Settings: addNotify
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_TIMING, "Run Post-Synthesis Timing Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_TIMING
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-synthesis -type timing 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'... INFO: [USF-XSim-90] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/synth/timing/sccomp_dataflow_time_synth.v" 
+// Tcl Message: write_verilog: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1247.180 ; gain = 22.898 
+// Tcl Message: INFO: [USF-XSim-30] Writing SDF file... INFO: [USF-XSim-91] write_sdf -mode timesim -process_corner slow -force -file "C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/synth/timing/sccomp_dataflow_time_synth.sdf" 
+// HMemoryUtils.trashcanNow. Engine heap size: 970 MB. GUI used memory: 63 MB. Current time: 6/16/21 1:36:30 PM CST
+// [Engine Memory]: 1,210 MB (+244294kb) [00:03:17]
+// Tcl Message: write_sdf: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1580.543 ; gain = 333.363 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/synth/timing' 
+// Tcl Message: Vivado Simulator 2016.2 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto b99ebf44ebb446e588726bbbf61e0fe3 --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot sccomp_dataflow_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 xil_defaultlib.sccomp_dataflow xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+// Tcl Message: Completed static elaboration Starting simulation data flow analysis 
+// Tcl Message: Completed simulation data flow analysis 
+// Tcl Message: Time Resolution for simulation is 1ps Compiling module simprims_ver.LUT6 Compiling module simprims_ver.x_lut2_mux4 Compiling module simprims_ver.LUT2 Compiling module simprims_ver.LUT4 Compiling module simprims_ver.LUT5 Compiling module simprims_ver.MUXF7 Compiling module simprims_ver.MUXF8 Compiling module simprims_ver.RAMS64E(RAM_ADDRESS_SPACE=2'b11) Compiling module simprims_ver.RAMS64E(RAM_ADDRESS_SPACE=2'b10) 
+// Tcl Message: Compiling module simprims_ver.RAMS64E(RAM_ADDRESS_SPACE=2'b01) Compiling module simprims_ver.RAMS64E 
+// [GUI Memory]: 92 MB (+3440kb) [00:03:57]
+// Tcl Message: Compiling module xil_defaultlib.DIVU Compiling module xil_defaultlib.mux_4_1_0 Compiling module simprims_ver.FDRE(IS_C_INVERTED=1'b1) Compiling module xil_defaultlib.hiloreg Compiling module xil_defaultlib.mux_4_1_1 Compiling module xil_defaultlib.hiloreg_2 Compiling module simprims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,... 
+// Tcl Message: Compiling module xil_defaultlib.MULTU Compiling module xil_defaultlib.mux_8_1_3 Compiling module xil_defaultlib.pcreg Compiling module xil_defaultlib.mux_16_1 Compiling module xil_defaultlib.cpu Compiling module xil_defaultlib.sccomp_dataflow Compiling module xil_defaultlib.glbl 
+// Tcl Message: Built simulation snapshot sccomp_dataflow_time_synth 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '42' seconds 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s) while executing 'C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/synth/timing/elaborate.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:22 ; elapsed = 00:01:05 . Memory (MB): peak = 1582.020 ; gain = 357.738 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// HOptionPane Error: " ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.<br> (Run Simulation)"
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 65 MB. Current time: 6/16/21 1:37:36 PM CST
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// a:a (cv:JFrame): Critical Messages: addNotify
+// 'e' command handler elapsed time: 82 seconds
+// Elapsed time: 82 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cv:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 153, 171); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 83 MB. Current time: 6/16/21 1:37:56 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 64 MB. Current time: 6/16/21 1:38:01 PM CST
+// Elapsed time: 10 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 74, 152); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 71, 203); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 55, 165); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 68 MB. Current time: 6/16/21 1:38:05 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 18, 84); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 18, 84); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 95 MB. Current time: 6/16/21 1:38:17 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 64 MB. Current time: 6/16/21 1:38:20 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 66 MB. Current time: 6/16/21 1:38:22 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResource.WaveformView_GOTO_LAST_TIME, "Waveform Viewer_waveformGotoLastTime"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 122, 153); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 175, 60); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,210 MB. GUI used memory: 64 MB. Current time: 6/16/21 1:38:29 PM CST
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Post-Synthesis Simulation - Functional - sim_1 - sccomp_dataflow", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# Current time: 6/16/21 1:38:31 PM CST
+# Process ID: 13852
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 59 (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid13852.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# Current time: 6/16/21 1:38:35 PM CST
+# Process ID: 13852
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.frmwork.CommandFailedException:  ERROR: [Common 17-39] 'close_sim' failed due to earlier errors.
+ (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid13852.debug)
+*/
+// Tcl Message: close_sim 
+// Tcl Message: ERROR: [Vivado 12-106] *** Exception: java.lang.ArrayIndexOutOfBoundsException: 59 (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid13852.debug) 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: ERROR: [Common 17-39] 'close_sim' failed due to earlier errors. 
+// HOptionPane Error: " ERROR: [Common 17-39] 'close_sim' failed due to earlier errors.  (Vivado v2016.2 (64-bit))"
+// [GUI Memory]: 98 MB (+1209kb) [00:05:20]
+// Elapsed time: 16 seconds
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectButton(RDIResource.HExceptionDialog_DETAILS, "Details <<"); // a:JButton (ButtonPanel:JPanel, ag:StandardDialog)
+selectButton(RDIResource.HExceptionDialog_DETAILS, "Details >>"); // a:JButton (ButtonPanel:JPanel, ag:StandardDialog)
+selectButton(RDIResource.HExceptionDialog_EXIT, "Exit"); // a:JButton (ButtonPanel:JPanel, ag:StandardDialog)
+// G:be (cv:JFrame): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# Current time: 6/16/21 1:38:55 PM CST
+# Process ID: 13852
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 59 (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid13852.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# Current time: 6/16/21 1:38:59 PM CST
+# Process ID: 13852
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.frmwork.CommandFailedException:  ERROR: [Common 17-39] 'close_sim' failed due to earlier errors.
+ (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid13852.debug)
+*/
+// Tcl Message: close_sim 
+// Tcl Message: ERROR: [Vivado 12-106] *** Exception: java.lang.ArrayIndexOutOfBoundsException: 59 (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid13852.debug) 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: ERROR: [Common 17-39] 'close_sim' failed due to earlier errors. 
+// HOptionPane Error: " ERROR: [Common 17-39] 'close_sim' failed due to earlier errors.  (Vivado v2016.2 (64-bit))"
+dismissDialog("Exit Vivado"); // G:be (cv:JFrame)
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// [GUI Memory]: 106 MB (+3260kb) [00:05:44]
+selectCodeEditor("DMEM.v", 142, 86); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, close_sim. , [Vivado 12-106] *** Exception: java.lang.ArrayIndexOutOfBoundsException: 59 (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid13852.debug). ]", 10, false); // al:k (JViewport:JComponent, cv:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, true); // h:JCheckBox (JPanel:JComponent, cv:JFrame): TRUE
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-5413] Mix of synchronous and asynchronous control for register dmem_reg_reg in module dmem.. ]", 2, false); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-5413] Mix of synchronous and asynchronous control for register dmem_reg_reg in module dmem.. ]", 2, false, false, false, false, false, true); // al:k (JViewport:JComponent, cv:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-5413] Mix of synchronous and asynchronous control for register dmem_reg_reg in module dmem.. ]", 2, false, false, false, false, true, false); // al:k (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, launch_simulation -mode post-synthesis -type timing. , [USF-XSim 62] 'elaborate' step failed with error(s) while executing 'C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.sim/sim_1/synth/timing/elaborate.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.. ]", 7, false); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, launch_simulation -mode post-synthesis -type functional. ]", 4, true); // al:k (JViewport:JComponent, cv:JFrame) - Node
+closeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// TclEventType: FILE_SET_CHANGE
+// Project Settings: addNotify
+selectComboBox(PAResourceOtoP.ProjectSettingsSimulationPanel_TARGET_SIMULATOR, "ModelSim Simulator", 1); // f:JComboBox (JPanel:JComponent, k:aP)
+// TclEventType: PROJECT_CHANGE
+selectButton("PAResourceOtoP.ProjectSettingsSimulationPanel_QUESTASIM_MODELSIM_VERILOG_COMPILER_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// Tcl Message: set_property target_simulator ModelSim [current_project] 
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_COMPILATION, "Compilation", 0); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Project Settings: addNotify
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Simulation", "Post-Synthesis Simulation - Functional - sim_1 - sccomp_dataflow", "DesignTask.SIMULATION");
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# Current time: 6/16/21 1:40:02 PM CST
+# Process ID: 13852
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.frmwork.CommandFailedException:  ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator.
+ (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid13852.debug)
+*/
+// Tcl Message: close_sim 
+// Tcl Message: ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator. 
+// HOptionPane Error: " ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command<br>you must first start a simulation using Vivado Simulator.  (Vivado v2016.2 (64-bit))"
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)

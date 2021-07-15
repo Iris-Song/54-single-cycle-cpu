@@ -1,0 +1,201 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 5140
+
+Current time: 	6/16/21 6:02:35 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	1234
+User home directory: C:/Users/1234
+User working directory: C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/1234/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/1234/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	217 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 530 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 33 MB (+32017kb) [00:00:04]
+// [Engine Memory]: 395 MB (+262568kb) [00:00:04]
+// Opening Vivado Project: C:\Users\1234\Desktop\digit logical shortcut\54cpu-sim\54cpu.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 39 MB (+4153kb) [00:00:07]
+// [Engine Memory]: 492 MB (+80725kb) [00:00:07]
+// [GUI Memory]: 57 MB (+17523kb) [00:00:07]
+// [Engine Memory]: 517 MB (+1035kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project {C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 538 MB. GUI used memory: 32 MB. Current time: 6/16/21 6:02:36 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: 54cpu; location: C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 825.270 ; gain = 146.172 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 544 MB (+550kb) [00:00:13]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 61 MB (+608kb) [00:00:19]
+// Elapsed time: 69 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 16 18:03:50 2021] Launched synth_1... Run output will be captured here: C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.runs/synth_1/runme.log 
+// 'm' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 566 MB. GUI used memory: 33 MB. Current time: 6/16/21 6:03:55 PM CST
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 199 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bL:g (cv:JFrame):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// [Engine Memory]: 649 MB (+82351kb) [00:04:49]
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 36 MB. Current time: 6/16/21 6:07:16 PM CST
+// [Engine Memory]: 804 MB (+127986kb) [00:04:54]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 808 MB. GUI used memory: 36 MB. Current time: 6/16/21 6:07:21 PM CST
+// Xgd.load filename: C:/Xilinx/Vivado/2016.2/data/parts/xilinx/artix7/devint/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_detail.xgd elapsed time: 0.6s
+// [Engine Memory]: 902 MB (+60983kb) [00:04:55]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1s
+// TclEventType: DESIGN_NEW
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# Current time: 6/16/21 6:07:23 PM CST
+# Process ID: 5140
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: 59 (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid5140.debug)
+*/
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: ERROR: [Vivado 12-106] *** Exception: java.lang.ArrayIndexOutOfBoundsException: 59 (See C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/vivado_pid5140.debug) 
+// Tcl Message: open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1164.219 ; gain = 331.121 
+// Tcl Message: ERROR: [Common 17-39] 'open_run' failed due to earlier errors. 
+// N:a (cv:JFrame): Critical Messages: addNotify
+// [GUI Memory]: 70 MB (+6082kb) [00:05:01]
+// Elapsed time: 20 seconds
+selectButton(RDIResource.HExceptionDialog_EXIT, "Exit"); // a:JButton (ButtonPanel:JPanel, ag:StandardDialog)
+// G:be (cv:JFrame): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:be)
+// 'dG' command handler elapsed time: 22 seconds
+// [GUI Memory]: 77 MB (+4699kb) [00:05:09]
+dismissDialog("Exit Vivado"); // G:be (cv:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a:JButton (JPanel:JComponent, N:a)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // N:a (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Simulation Settings]", 10, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Project Settings: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.ProjectSettingsSimulationPanel_CHOOSE_COMPILED_LIBRARY_LOCATION, (String) null); // r:a (ap:JPanel, k:aP)
+// Elapsed time: 47 seconds
+dismissFolderChooser();
+selectButton("General", "General"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+// Elapsed time: 13 seconds
+selectButton("Simulation", "Simulation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+// Elapsed time: 33 seconds
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ELABORATION, "Elaboration", 1); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_NETLIST, "Netlist", 3); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ADVANCED, "Advanced", 4); // g:JideTabbedPane (JPanel:JComponent, k:aP)
+selectButton("Elaboration", "Elaboration"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+selectButton("Synthesis", "Synthesis"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+// HMemoryUtils.trashcanNow. Engine heap size: 953 MB. GUI used memory: 58 MB. Current time: 6/16/21 6:10:01 PM CST
+// [Engine Memory]: 953 MB (+6288kb) [00:07:39]
+// Elapsed time: 20 seconds
+selectButton("Implementation", "Implementation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+// Elapsed time: 13 seconds
+selectButton("Bitstream", "Bitstream"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+// Elapsed time: 11 seconds
+selectButton("IP", "IP"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+// Elapsed time: 16 seconds
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_PACKAGER, "Packager", 2); // g:JideTabbedPane (z:bc, k:aP)
+// Elapsed time: 45 seconds
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+// [GUI Memory]: 82 MB (+489kb) [00:15:02]
+// [GUI Memory]: 86 MB (+1kb) [00:18:08]
+// Elapsed time: 559 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Wed Jun 16 18:21:07 2021] Launched synth_1... Run output will be captured here: C:/Users/1234/Desktop/digit logical shortcut/54cpu-sim/54cpu.runs/synth_1/runme.log 
+// 'm' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// [GUI Memory]: 93 MB (+2883kb) [00:18:46]
+// [GUI Memory]: 98 MB (+147kb) [00:19:02]

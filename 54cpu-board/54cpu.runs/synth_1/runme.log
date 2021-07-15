@@ -1,0 +1,805 @@
+
+*** Running vivado
+    with args -log sccomp_dataflow.vds -m64 -mode batch -messageDb vivado.pb -notrace -source sccomp_dataflow.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source sccomp_dataflow.tcl -notrace
+Command: synth_design -top sccomp_dataflow -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 28104 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 305.227 ; gain = 97.965
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sccomp_dataflow' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/sccomp_dataflow.v:3]
+INFO: [Synth 8-638] synthesizing module 'imem' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.runs/synth_1/.Xil/Vivado-30328-DESKTOP-M8A39LL/realtime/imem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'imem' (1#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.runs/synth_1/.Xil/Vivado-30328-DESKTOP-M8A39LL/realtime/imem_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'cpu' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-638] synthesizing module 'clz' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/clz.v:3]
+INFO: [Synth 8-256] done synthesizing module 'clz' (2#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/clz.v:3]
+INFO: [Synth 8-638] synthesizing module 'mux_8_1' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_8_1.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_8_1.v:17]
+INFO: [Synth 8-256] done synthesizing module 'mux_8_1' (3#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_8_1.v:3]
+INFO: [Synth 8-638] synthesizing module 'mux_4_1' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_4_1.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_4_1.v:13]
+INFO: [Synth 8-256] done synthesizing module 'mux_4_1' (4#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_4_1.v:3]
+INFO: [Synth 8-638] synthesizing module 'mux_16_1' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_16_1.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_16_1.v:25]
+INFO: [Synth 8-256] done synthesizing module 'mux_16_1' (5#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_16_1.v:3]
+INFO: [Synth 8-638] synthesizing module 'mux_4_1_5bit' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_4_1_5bit.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_4_1_5bit.v:13]
+INFO: [Synth 8-256] done synthesizing module 'mux_4_1_5bit' (6#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/mux_4_1_5bit.v:3]
+INFO: [Synth 8-638] synthesizing module 'pcreg' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/pcreg.v:3]
+INFO: [Synth 8-256] done synthesizing module 'pcreg' (7#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/pcreg.v:3]
+INFO: [Synth 8-638] synthesizing module 'regfile' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/regfile.v:3]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (8#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/regfile.v:3]
+INFO: [Synth 8-638] synthesizing module 'alu' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/ALU.v:16]
+INFO: [Synth 8-256] done synthesizing module 'alu' (9#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/ALU.v:16]
+INFO: [Synth 8-638] synthesizing module 'CP0' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cp0.v:3]
+INFO: [Synth 8-256] done synthesizing module 'CP0' (10#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cp0.v:3]
+INFO: [Synth 8-638] synthesizing module 'hiloreg' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/hiloreg.v:3]
+INFO: [Synth 8-256] done synthesizing module 'hiloreg' (11#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/hiloreg.v:3]
+INFO: [Synth 8-638] synthesizing module 'DIVU' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIVU.v:3]
+WARNING: [Synth 8-5788] Register reg_r_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIVU.v:22]
+WARNING: [Synth 8-5788] Register r_sign_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIVU.v:22]
+WARNING: [Synth 8-5788] Register reg_q_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIVU.v:24]
+WARNING: [Synth 8-5788] Register reg_b_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIVU.v:22]
+INFO: [Synth 8-256] done synthesizing module 'DIVU' (12#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIVU.v:3]
+INFO: [Synth 8-638] synthesizing module 'DIV' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIV.v:3]
+WARNING: [Synth 8-5788] Register reg_r_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIV.v:29]
+WARNING: [Synth 8-5788] Register r_sign_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIV.v:29]
+WARNING: [Synth 8-5788] Register reg_q_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIV.v:31]
+WARNING: [Synth 8-5788] Register reg_b_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIV.v:29]
+INFO: [Synth 8-256] done synthesizing module 'DIV' (13#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIV.v:3]
+INFO: [Synth 8-638] synthesizing module 'MULTU' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/MULTU.v:3]
+INFO: [Synth 8-256] done synthesizing module 'MULTU' (14#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/MULTU.v:3]
+INFO: [Synth 8-638] synthesizing module 'MULT' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/MULT.v:3]
+INFO: [Synth 8-256] done synthesizing module 'MULT' (15#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/MULT.v:3]
+INFO: [Synth 8-638] synthesizing module 'cu' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cu.v:3]
+INFO: [Synth 8-256] done synthesizing module 'cu' (16#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cu.v:3]
+INFO: [Synth 8-256] done synthesizing module 'cpu' (17#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-638] synthesizing module 'dmem' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DMEM.v:3]
+CRITICAL WARNING: [Synth 8-5413] Mix of synchronous and asynchronous control for register dmem_reg_reg in module dmem.
+WARNING: [Synth 8-5788] Register dmem_reg_reg in module dmem is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code 
+INFO: [Synth 8-256] done synthesizing module 'dmem' (18#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DMEM.v:3]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/seg7x16.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/seg7x16.v:86]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (19#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/seg7x16.v:21]
+INFO: [Synth 8-256] done synthesizing module 'sccomp_dataflow' (20#1) [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/sccomp_dataflow.v:3]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[31]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[30]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[29]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[28]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[27]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[26]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[25]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[24]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[23]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[22]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[21]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[20]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[19]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[18]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[17]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[16]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[15]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[14]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[13]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[12]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[11]
+WARNING: [Synth 8-3331] design dmem has unconnected port addr[10]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[20]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[19]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[18]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[17]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[16]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[15]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[14]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[13]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[12]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[11]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[10]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[9]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[8]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[7]
+WARNING: [Synth 8-3331] design cu has unconnected port inst[6]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[15]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[14]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[13]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[12]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[11]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[10]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[9]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[8]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[7]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[6]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[5]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[4]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[3]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[2]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[1]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 345.113 ; gain = 137.852
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[31] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[30] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[29] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[28] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[27] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[26] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[25] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[24] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[23] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[22] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[21] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[20] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[19] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[18] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[17] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[16] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[15] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[14] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[13] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[12] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[11] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[10] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[9] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[8] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[7] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[6] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[5] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[4] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[3] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[2] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[1] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_a_sel:iData3[0] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:64]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[31] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[30] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[29] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[28] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[27] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[26] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[25] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[24] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[23] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[22] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[21] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[20] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[19] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[18] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[17] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[16] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[15] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[14] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[13] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[12] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[11] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[10] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[9] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[8] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[7] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[6] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[5] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[4] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[3] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[2] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[1] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin alu_b_sel:iData5[0] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:68]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[31] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[30] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[29] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[28] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[27] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[26] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[25] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[24] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[23] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[22] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[21] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[20] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[19] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[18] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[17] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[16] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[15] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[14] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[13] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[12] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[11] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[10] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[9] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[8] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[7] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[6] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[5] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[4] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[3] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[2] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[1] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData12[0] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData13[31] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData13[30] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData13[29] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+WARNING: [Synth 8-3295] tying undriven pin rf_wdata_sel:iData13[28] to constant 0 [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/cpu.v:77]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 345.113 ; gain = 137.852
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'imem' instantiated as 'imem' [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/sccomp_dataflow.v:33]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.runs/synth_1/.Xil/Vivado-30328-DESKTOP-M8A39LL/dcp/imem_in_context.xdc] for cell 'imem'
+Finished Parsing XDC File [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.runs/synth_1/.Xil/Vivado-30328-DESKTOP-M8A39LL/dcp/imem_in_context.xdc] for cell 'imem'
+Parsing XDC File [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/cpu_constraints.xdc]
+Finished Parsing XDC File [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/cpu_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/cpu_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sccomp_dataflow_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sccomp_dataflow_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 655.844 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 655.844 ; gain = 448.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 655.844 ; gain = 448.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 655.844 ; gain = 448.582
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "array_reg_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_reg_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIVU.v:22]
+INFO: [Synth 8-5546] ROM "busy" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/1234/Desktop/digit logical shortcut/54cpu-rboard/54cpu.srcs/sources_1/new/DIV.v:29]
+INFO: [Synth 8-5546] ROM "busy" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "addi_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slti_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sltiu_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ori_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "xori_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bgez_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sw_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sh_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sb_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "beq_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bne_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "j_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "addiu_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "andi_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lw_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lui_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "jal_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lb_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lbu_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lh_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lhu_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "o_seg_r" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 655.844 ; gain = 448.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 2     
+	   3 Input     33 Bit       Adders := 4     
+	   2 Input     32 Bit       Adders := 10    
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     33 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 71    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---RAMs : 
+	              32K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 16    
+	   3 Input     32 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  33 Input      6 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 134   
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sccomp_dataflow 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module clz 
+Detailed RTL Component Info : 
++---Muxes : 
+	  33 Input      6 Bit        Muxes := 1     
+Module mux_4_1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module mux_4_1_5bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      5 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 2     
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     33 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module CP0 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 30    
+	   3 Input      1 Bit        Muxes := 3     
+Module DIVU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module DIV 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module MULTU 
+Detailed RTL Component Info : 
++---Multipliers : 
+	                32x32  Multipliers := 1     
+Module MULT 
+Detailed RTL Component Info : 
++---Multipliers : 
+	                32x32  Multipliers := 1     
+Module cu 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 63    
+Module cpu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+Module dmem 
+Detailed RTL Component Info : 
++---RAMs : 
+	              32K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   3 Input     32 Bit        Muxes := 3     
+Module seg7x16 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 655.844 ; gain = 448.582
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "lw_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sw_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lb_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lh_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lhu_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lbu_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sh_op" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sb_op" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP multu_uut/temp, operation Mode is: A*B.
+DSP Report: operator multu_uut/temp is absorbed into DSP multu_uut/temp.
+DSP Report: operator multu_uut/temp is absorbed into DSP multu_uut/temp.
+DSP Report: Generating DSP multu_uut/temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multu_uut/temp is absorbed into DSP multu_uut/temp.
+DSP Report: operator multu_uut/temp is absorbed into DSP multu_uut/temp.
+DSP Report: Generating DSP multu_uut/temp, operation Mode is: A*B.
+DSP Report: operator multu_uut/temp is absorbed into DSP multu_uut/temp.
+DSP Report: operator multu_uut/temp is absorbed into DSP multu_uut/temp.
+DSP Report: Generating DSP multu_uut/temp, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multu_uut/temp is absorbed into DSP multu_uut/temp.
+DSP Report: operator multu_uut/temp is absorbed into DSP multu_uut/temp.
+INFO: [Synth 8-5544] ROM "dmem_uut/" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[15]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[14]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[13]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[12]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[11]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[10]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[9]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[8]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[7]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[6]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[5]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[4]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[3]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[2]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[1]
+WARNING: [Synth 8-3331] design sccomp_dataflow has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 655.844 ; gain = 448.582
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 655.844 ; gain = 448.582
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------+-----------------------+-----------+----------------------+-------------------+
+|Module Name     | RTL Object            | Inference | Size (Depth x Width) | Primitives        | 
++----------------+-----------------------+-----------+----------------------+-------------------+
+|sccomp_dataflow | dmem_uut/dmem_reg_reg | Implied   | 1 K x 32             | RAM256X1S x 128   | 
++----------------+-----------------------+-----------+----------------------+-------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|cpu         | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cpu         | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cpu         | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cpu         | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\seg_uut/o_seg_r_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (seg_uut/o_seg_r_reg[7]) is unused and will be removed from module sccomp_dataflow.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:01:41 ; elapsed = 00:01:48 . Memory (MB): peak = 655.844 ; gain = 448.582
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:41 ; elapsed = 00:01:48 . Memory (MB): peak = 655.844 ; gain = 448.582
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:06 ; elapsed = 00:02:14 . Memory (MB): peak = 715.004 ; gain = 507.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:30 ; elapsed = 00:02:39 . Memory (MB): peak = 719.828 ; gain = 512.566
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:42 ; elapsed = 00:02:51 . Memory (MB): peak = 788.113 ; gain = 580.852
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:02:42 ; elapsed = 00:02:51 . Memory (MB): peak = 788.113 ; gain = 580.852
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:42 ; elapsed = 00:02:51 . Memory (MB): peak = 788.113 ; gain = 580.852
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:44 ; elapsed = 00:02:52 . Memory (MB): peak = 788.113 ; gain = 580.852
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:44 ; elapsed = 00:02:52 . Memory (MB): peak = 788.113 ; gain = 580.852
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:44 ; elapsed = 00:02:53 . Memory (MB): peak = 788.113 ; gain = 580.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:44 ; elapsed = 00:02:53 . Memory (MB): peak = 788.113 ; gain = 580.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:44 ; elapsed = 00:02:53 . Memory (MB): peak = 788.113 ; gain = 580.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:44 ; elapsed = 00:02:53 . Memory (MB): peak = 788.113 ; gain = 580.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |imem          |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |imem      |     1|
+|2     |BUFG      |     1|
+|3     |CARRY4    |   162|
+|4     |DSP48E1   |     4|
+|5     |LUT1      |   223|
+|6     |LUT2      |   508|
+|7     |LUT3      |   427|
+|8     |LUT4      |   272|
+|9     |LUT5      |   295|
+|10    |LUT6      |  1801|
+|11    |MUXF7     |   414|
+|12    |MUXF8     |    46|
+|13    |RAM256X1S |   128|
+|14    |FDCE      |  2203|
+|15    |FDPE      |    10|
+|16    |FDRE      |   194|
+|17    |IBUF      |     2|
+|18    |OBUF      |    16|
++------+----------+------+
+
+Report Instance Areas: 
++------+-----------------+-------------+------+
+|      |Instance         |Module       |Cells |
++------+-----------------+-------------+------+
+|1     |top              |             |  6738|
+|2     |  dmem_uut       |dmem         |   240|
+|3     |  sccpu          |cpu          |  6296|
+|4     |    alu_a_sel    |mux_4_1      |   195|
+|5     |    alu_b_sel    |mux_8_1      |    16|
+|6     |    cp0_uut      |CP0          |  1540|
+|7     |    cpu_ref      |regfile      |  3204|
+|8     |    div_uut      |DIV          |   382|
+|9     |    divu_uut     |DIVU         |   302|
+|10    |    hi_in        |mux_4_1_0    |    32|
+|11    |    hireg_uut    |hiloreg      |    39|
+|12    |    lo_in        |mux_4_1_1    |    31|
+|13    |    loreg_uut    |hiloreg_2    |    36|
+|14    |    multu_uut    |MULTU        |    64|
+|15    |    pc_in_sel    |mux_8_1_3    |    93|
+|16    |    pc_uut       |pcreg        |   162|
+|17    |    rdc_sel      |mux_4_1_5bit |    39|
+|18    |    rf_wdata_sel |mux_16_1     |   124|
+|19    |  seg_uut        |seg7x16      |   150|
++------+-----------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:44 ; elapsed = 00:02:53 . Memory (MB): peak = 788.113 ; gain = 580.852
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:27 ; elapsed = 00:02:37 . Memory (MB): peak = 788.113 ; gain = 242.270
+Synthesis Optimization Complete : Time (s): cpu = 00:02:45 ; elapsed = 00:02:53 . Memory (MB): peak = 788.113 ; gain = 580.852
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 296 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 96 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 128 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+160 Infos, 180 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:45 ; elapsed = 00:02:52 . Memory (MB): peak = 788.113 ; gain = 557.129
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.090 . Memory (MB): peak = 788.113 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 09 16:12:03 2021...
