@@ -69,7 +69,7 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
 * **run on target** : you can see PC on LED. Dividing frequency is advised.
 
 　　　　　<img src="https://user-images.githubusercontent.com/58033867/125728314-ae55d25a-e392-4d7a-b12c-45515f59da99.png" width="300" height="300">
-
+<br><br>
 ### How to use
 #### design
 1. [analyze data path of each instruction](https://github.com/Iris-Song/54-single-cycle-cpu/blob/main/data%20path%20of%20each%20instr.pdf)
