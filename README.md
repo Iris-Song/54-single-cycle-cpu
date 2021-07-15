@@ -74,7 +74,7 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
 #### design
 1. [analyze data path of each instruction](https://github.com/Iris-Song/54-single-cycle-cpu/blob/main/data%20path%20of%20each%20instr.pdf)
 
-2. find digital parts to use and find their commons
+2. [find digital parts to use and find their commons](https://github.com/Iris-Song/54-single-cycle-cpu/blob/main/cpu%20design%20--arrange.xlsx)
 
 3. design total data path
 ![image](https://user-images.githubusercontent.com/58033867/125744012-d3e55dbd-e135-42fa-bb05-89cccc73c35b.png)
