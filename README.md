@@ -30,10 +30,10 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
   | 19   | or			    | or rd, rs, rt |  000000  |          |          |          |   00000   |   100101  | 00000025 
   | 20   | sll		     | sll rd, rt, sa |  000000  |  00000   |          |          |         |  	000000   | 00000000
   | 21  | sllv		   | sllv rd, rt, rs | 000000  |     00000     |          |          |         |    000100    | 00000004
-| 22   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-   | 23   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 24 | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 25   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
+  | 22   | sltu		    | sltu rd, rs, rt |  000000  |          |          |          |  00000  |  101011    | 0000002B
+   | 23   | sra			   | sra rd, rt, sa |  000000  |00000     |          |          |         |  000011   | 00000003
+  | 24 | srl								    | srl rd, rt, sa |  000000  |  00000   |          |          |         |  000010  | 00000002   
+  | 25   | subu		    | sub rd, rs, rt |  000000  |          |          |          |  00000   |  100010    | 00000022
   | 26   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000  
   | 27   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
   | 28  | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
