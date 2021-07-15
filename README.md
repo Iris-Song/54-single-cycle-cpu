@@ -56,13 +56,13 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
   | 45   | mtc0	|mtc0 rt, rd|	010000|	00100|||			|00000	|000000	|40800000      
   | 46   | mthi	|mthi rd|	000000||		00000|	00000|	00000|	010001|	00000011     
   | 47   | mtlo	|mtlo rd |	000000| |		00000|	00000|	00000|	010011|	00000013     
-  | 48   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 49   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-| 50   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-   | 51   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 52   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 53   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 54   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000  
+  | 48   | mul	|mul rd, rs, rt	|011100||||				00000|	000010|	70000002     
+  | 49   | multu|	multu rs, rt	|000000|||			00000|	00000|	011001|	00000019      
+  | 50   |syscall	|syscall	|000000||	||	|			001100|	0000000C
+   | 51   | teq	|teq rs, rt	|000000	||	||	|			110100|	00000034     
+  | 52   | bgez	|bgez rs, offset|	000001|	|	0001	|||			|04010000    
+  | 53   | break	|break|	000000	||		|||		001101|	0000000D
+  | 54   | div	|div rs, rt	|000000	||	|	00000|	00000	|011010	|0000001A    
   
 * **Environment** :　Vivado 2016.2　Nexy4 DDR
 * **compared with Mars4_5** : when testing on posedge , it delay one cycle. when testing on negedge ,the result is the same (not 100% sure).
