@@ -42,15 +42,15 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
   | 31   | srav	|srav rd, rt, rs	|000000	||||			00000	|000111	|00000007       
   | 32   |clz	|clz rd, rs|	011100	||||			00000	|100000	|70000020     
   | 33   | divu	|divu rs, rt|	000000	|||		00000|	00000	|011011|	0000001B      
-  | 34   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 35   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-| 36   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-   | 37   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 38   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 39   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 40   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000  
-  | 41   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
-  | 42   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
+  | 34   | eret	|eret	|010000|	10000|	00000|	00000|	00000|	011000|	42000018  
+  | 35   | jalr	|jalr rs|	000000||		00000	||	|	001001|	00000008
+  | 36   | lb	|lb rt, offset(base)|	100000	||||||					80000000      
+  | 37   | lbu|	lbu rt, offset(base)|	100100	||||||		90000000     
+  | 38   | lhu	|lhu rt, offset(base)|	100101		||||||				94000000      
+  | 39   | sb	|sb rt, offset(base)	|101000		||||||	A0000000      
+  | 40   | sh	|sh rt, offset(base)	|101001		||||||	A4000000      
+  | 41   | lh	|lh rt, offset(base)	|100001		||||||				84000000      
+  | 42   | mfc0	|mfc0 rt, rd	|010000|	00000	|	||	00000|	000000|	40000000      
 | 43   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
    | 44   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
   | 45   | addiu       | addiu rd, rs, immediate |  001001  |          |          |          |         |           | 24000000
