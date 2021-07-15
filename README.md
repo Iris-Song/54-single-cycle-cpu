@@ -80,12 +80,28 @@ A very simple <b>single cycle</b> CPU using <b>MIPS</b> architecture & <b>Harvar
 <img src="https://user-images.githubusercontent.com/58033867/125744012-d3e55dbd-e135-42fa-bb05-89cccc73c35b.png" height="500">
 
 #### test
-**pre-simulation** :
-1. write a file for test ([example]()) ,init your instruction memory with each instruction's [hex code](https://github.com/Iris-Song/54-single-cycle-cpu/tree/main/test/hex)
+**behavioral simulation** :
+1. write a file for test ([example](https://github.com/Iris-Song/54-single-cycle-cpu/blob/main/digit/test.v)) ,init your instruction memory with each instruction's [hex code](https://github.com/Iris-Song/54-single-cycle-cpu/tree/main/test/hex)
 
 2. run simulation ,get your result.
 
 3. compare your result and [standard result](https://github.com/Iris-Song/54-single-cycle-cpu/tree/main/test/standad%20result)
+
+**post synthesis simulation** :
+　　test file in behavioral shouldn't be used.you can check correctness in Modelsim <br>
+　　for example:<br>
+　　　　<img src="https://user-images.githubusercontent.com/58033867/125750479-73b50f94-f0ef-47be-afdb-a025cf503eab.png" width="500">
+
+**run on target** :
+1. add .xdc when synethesis<br>
+2. divide frequency properly.<br><br>
+
+### others
+1. this simple cpu did not take overflow into account.
+
+2. div ,divu get result more than one cycle.
+
+3. this project is only an assignment in my undergraduate course.Not perfect.
 
  
 
